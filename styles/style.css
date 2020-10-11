@@ -4,3 +4,23 @@ body {
     font-size: 20px;
     color: #3f3f3f;
 }
+
+.header{
+    width: 100%;
+    height: auto;
+    top: 0px;
+}
+
+.perfil {
+    display: inline-block;
+    padding: 50px 50px;
+}
+
+.datos {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+#header_imagen{
+    height: 25%;
+}
