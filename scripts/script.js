@@ -1,10 +1,10 @@
 window.addEventListener("load", function () {
-    var datos;
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-            datos = JSON.parse(this.responseText);
-            console.log(datos)
+            var datos = JSON.parse(this.responseText);
+            console.log(datos);
+            generar_articulos(datos);
         }
     };
     xmlhttp.open("GET", "data/data.json", true);
@@ -27,8 +27,10 @@ window.addEventListener("load", function () {
             "fecha":"2020-01-01 00:00"
         }
     }*/
-    console.log(datos);
+});
 
+function generar_articulos(datos){
+    console.log("Iniciando generacion dinamica de articulos");
     var div_contenido = document.getElementById("contenido_box");
 
     for(const articulo in datos){
@@ -58,4 +60,4 @@ window.addEventListener("load", function () {
 
         div_contenido.appendChild(div_articulo);
     }
-});
+}
