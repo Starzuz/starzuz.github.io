@@ -1,11 +1,16 @@
 {
-    "articulos":{
-        "01":{
-            "titulo":"Intro",
-            "descripcion":"Introduccion",
-            "imagen":"link",
-            "url":"link",
-            "fecha":"2020-01-01 00:00"
-        }
+    "01":{
+        "titulo":"Repositorio de github",
+        "descripcion":"Introduccion",
+        "imagen":"images/articulo_001.jpg",
+        "url":"https://github.com/Starzuz/starzuz.github.io",
+        "fecha":"2020-01-01 00:00"
+    },
+    "02":{
+        "titulo":"Linea directa",
+        "descripcion":"Introduccion",
+        "imagen":"images/articulo_002.jpg",
+        "url":"https://lineadirectaportal.com/",
+        "fecha":"2020-01-01 00:00"
     }
 }

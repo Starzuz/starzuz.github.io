@@ -44,6 +44,11 @@
     background-color: #e7e7e7;
 }
 
+.articulo_enlace{
+    text-decoration: none;
+    color:#353535; 
+}
+
 .articulo_image{
     width: 100%;
 }
