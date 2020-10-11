@@ -1,5 +1,5 @@
 window.addEventListener("load", function () {
-    var datos = {};
+    var datos;
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
@@ -27,6 +27,7 @@ window.addEventListener("load", function () {
             "fecha":"2020-01-01 00:00"
         }
     }*/
+    console.log(datos);
 
     var div_contenido = document.getElementById("contenido_box");
 

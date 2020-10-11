@@ -70,5 +70,9 @@
         flex: 100%;
         max-width: 100%;
         margin: 10px;
-    } 
+    }
+
+    .articulo_image{
+        width: 30%;
+    }
 }
