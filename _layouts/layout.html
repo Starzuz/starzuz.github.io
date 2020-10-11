@@ -1,0 +1,26 @@
+{% load static %}
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rek="json" type="json" href="data/data.json">
+    </head>
+    <body>
+        <script type="text/javascript" src="scripts/script.js"></script>
+        <div class="contenedor">
+            <div class="header">
+                <div class="perfil">
+                    <img class="perfil_image" src="images/perfil.png">
+                </div>
+                <div class="datos">
+                    <h1>Selmar Alvarez</h1>
+                    <h3>Analisis y visualizacion de datos</h3>
+                    <p><span>Instagram</span> <span>Mail</span></p>
+                </div>
+            </div>
+            {% block content %}
+            {% endblock %}
+            <div class="footer"></div>
+        </div>
+    </body>
+</html>

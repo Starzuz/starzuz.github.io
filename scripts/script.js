@@ -1,4 +1,5 @@
 window.addEventListener("load", function () {
+    /*
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
@@ -9,24 +10,26 @@ window.addEventListener("load", function () {
     };
     xmlhttp.open("GET", "data/data.json", true);
     xmlhttp.send();
+    */
     
-    /*
     var datos = {
-        "01":{
-            "titulo":"Introduccion a la visualizacion de datos",
-            "descripcion":"Introduccion",
-            "imagen":"images/articulo_010.jpg",
-            "url":"link",
-            "fecha":"2020-01-01 00:00"
+        "01": {
+            "titulo": "Repositorio de github",
+            "descripcion": "Introduccion",
+            "imagen": "images/articulo_001.jpg",
+            "url": "articulo001.html",
+            "fecha": "2020-01-01 00:00"
         },
-        "02":{
-            "titulo":"Data viz",
-            "descripcion":"Introduccion",
-            "imagen":"images/articulo_001.jpg",
-            "url":"link",
-            "fecha":"2020-01-01 00:00"
+        "02": {
+            "titulo": "Linea directa",
+            "descripcion": "Introduccion",
+            "imagen": "images/articulo_002.jpg",
+            "url": "https://lineadirectaportal.com/",
+            "fecha": "2020-01-01 00:00"
         }
-    }*/
+    }
+
+    generar_articulos(datos);
 });
 
 function generar_articulos(datos){
